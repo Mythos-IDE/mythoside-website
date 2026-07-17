@@ -1,32 +1,45 @@
-# React + TypeScript + Vite
+<div align="center">
+  <img src="assets/readme/hero.svg" alt="MythosIDE: World Development Environment" width="100%" />
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**MythosIDE** is an open-source desktop application that functions as a World Development Environment (WDE) for novelists. 
 
-Currently, two official plugins are available:
+While most writing apps focus on the manuscript, MythosIDE understands that for fantasy, sci-fi, and epic fiction writers, the **world** is the source of truth. It treats worldbuilding with the same structural rigor that an IDE treats source code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## The Mechanism
 
-## React Compiler
+Unlike generic note-taking tools or Wikis, MythosIDE connects your manuscript directly to a structured world database. When you reference a character, location, or faction, the IDE knows its current state, relationships, and history. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Typed Entities**: Characters aren't just text notes; they are nodes with properties (Status, Faction, Location).
+- **Timeline Integrity**: The environment warns you if a character is referenced in a scene after their death, or if they are in two locations at once.
+- **Distraction-Free**: Built with a calm, dark-themed, and technical aesthetic. No clutter, no distracting AI chat bubbles—just your world and your words.
 
-## Expanding the Oxlint configuration
+## Development Setup
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+MythosIDE is built with React, TypeScript, Vite, and Tailwind CSS v4.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+# Clone the repository
+git clone https://github.com/your-username/mythoside.git
+cd mythoside/mythoside-website
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Philosophy
+
+- **This tool understands how you write:** It gets out of the way when drafting and provides structural support when planning.
+- **No AI generation focus:** This is a tool for *writers* to write, not for AI to write for you.
+- **Local and Private:** Your world belongs to you.
+
+## Contributing
+
+We welcome contributions from developers and writers alike. Whether it's adding new features to the editor, improving the data structure of world nodes, or fixing bugs.
+
+## License
+
+MIT License

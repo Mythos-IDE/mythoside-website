@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%">
+  <!-- Background -->
+  <rect width="1200" height="400" fill="#09090B" rx="12"/>
+  
+  <!-- Subtle Grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#27272A" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#09090B" stop-opacity="0" />
+      <stop offset="100%" stop-color="#09090B" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#grid)" rx="12"/>
+  <rect width="1200" height="400" fill="url(#fade)" rx="12"/>
+
+  <!-- Technical UI Window -->
+  <rect x="80" y="80" width="1040" height="280" fill="#111114" rx="8" stroke="#27272A" stroke-width="1"/>
+  
+  <!-- Traffic Lights -->
+  <circle cx="104" cy="104" r="6" fill="#27272A"/>
+  <circle cx="124" cy="104" r="6" fill="#27272A"/>
+  <circle cx="144" cy="104" r="6" fill="#27272A"/>
+  <line x1="80" y1="120" x2="1120" y2="120" stroke="#27272A" stroke-width="1"/>
+  
+  <!-- Sidebar -->
+  <rect x="80" y="120" width="220" height="240" fill="#09090B" rx="0"/>
+  <line x1="300" y1="120" x2="300" y2="360" stroke="#27272A" stroke-width="1"/>
+  
+  <!-- Sidebar Content -->
+  <text x="100" y="150" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="1">WORLDBUILDING</text>
+  <text x="100" y="180" fill="#FAFAFA" font-family="system-ui, sans-serif" font-size="13">Characters</text>
+  <circle cx="280" cy="176" r="4" fill="#A1A1AA"/>
+  <text x="100" y="210" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="13">Locations</text>
+  <text x="100" y="240" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="13">Factions</text>
+
+  <!-- Main Editor Area Content -->
+  <text x="340" y="170" fill="#FAFAFA" font-family="system-ui, sans-serif" font-size="32" font-weight="700">MythosIDE</text>
+  <text x="340" y="210" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="18">World Development Environment (WDE)</text>
+  <text x="340" y="250" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="14">An IDE for novelists that treats worldbuilding as the source of truth,</text>
+  <text x="340" y="275" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="14">not an afterthought to the manuscript.</text>
+  
+  <rect x="340" y="310" width="120" height="32" fill="#FAFAFA" rx="4"/>
+  <text x="400" y="330" fill="#09090B" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">View Project</text>
+
+  <!-- Right Side technical elements / character node -->
+  <rect x="850" y="160" width="220" height="100" fill="#09090B" rx="6" stroke="#27272A" stroke-width="1"/>
+  <text x="870" y="190" fill="#FAFAFA" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Alaric Vane</text>
+  <text x="870" y="215" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="12">Faction: Shadow Guild</text>
+  <text x="870" y="235" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="12">Status: Alive</text>
+  <!-- Connection Line -->
+  <path d="M 680 260 C 780 260 780 210 850 210" fill="none" stroke="#27272A" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>
