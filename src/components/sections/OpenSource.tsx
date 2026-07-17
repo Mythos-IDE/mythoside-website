@@ -71,7 +71,7 @@ const contributions = [
 export function OpenSource() {
   return (
     <section className="px-6 py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto w-full">
         <SectionHeading
           label="Open Source"
           title="Built in the open"

@@ -18,7 +18,7 @@ export function FinalCTA() {
         />
       </div>
 
-      <div className="relative mx-auto max-w-4xl text-center">
+      <div className="relative mx-auto w-full text-center">
         <FadeIn>
           <h2 className="text-3xl font-semibold tracking-tight text-text-primary sm:text-4xl lg:text-5xl">
             <span className="block">If you're building a world,</span>

@@ -162,7 +162,7 @@ const steps = [
 export function HowItWorks() {
   return (
     <section className="py-24 sm:py-32">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="w-full mx-auto px-6">
         <FadeIn>
           <SectionHeading
             label="How It Works"

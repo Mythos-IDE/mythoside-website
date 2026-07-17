@@ -92,7 +92,7 @@ export function Navbar() {
           : 'bg-bg/40 border-b border-transparent'
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="w-full mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2.5 text-text-primary">
           <LogoMark />

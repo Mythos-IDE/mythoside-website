@@ -91,7 +91,7 @@ const principles = [
 export function Philosophy() {
   return (
     <section id="philosophy" className="border-t border-border px-6 py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto w-full">
         <FadeIn>
           <div className="text-center">
             <blockquote className="space-y-2">

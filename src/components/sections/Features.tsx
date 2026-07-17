@@ -141,7 +141,7 @@ const features = [
 export function Features() {
   return (
     <section id="features" className="px-6 py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto w-full">
         <SectionHeading
           label="Features"
           title="Everything your world needs"

@@ -131,7 +131,7 @@ export function Hero() {
       {/* Subtle gradient background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(255,255,255,0.03)_0%,_transparent_50%)] pointer-events-none" />
 
-      <div className="max-w-6xl mx-auto px-6 w-full">
+      <div className="w-full mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left column — text */}
           <FadeIn>
