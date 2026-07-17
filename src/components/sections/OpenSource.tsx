@@ -3,6 +3,30 @@ import { SectionHeading } from '../ui/SectionHeading'
 import { Button } from '../ui/Button'
 import { Card } from '../ui/Card'
 
+const repositories = [
+  {
+    name: 'mythoside-core',
+    description: 'The core Rust engine, knowledge graph, and local server.',
+    language: 'Rust',
+    color: '#DEA584',
+    url: 'https://github.com/Mythos-IDE/mythoside-core',
+  },
+  {
+    name: 'mythoside-ts',
+    description: 'Tauri & React desktop application and user interface.',
+    language: 'TypeScript',
+    color: '#3178C6',
+    url: 'https://github.com/Mythos-IDE/mythoside-ts',
+  },
+  {
+    name: 'mythoside-website',
+    description: 'The landing page and official documentation.',
+    language: 'TypeScript',
+    color: '#3178C6',
+    url: 'https://github.com/Mythos-IDE/mythoside-website',
+  },
+]
+
 const contributions = [
   {
     title: 'Report Issues',
@@ -79,60 +103,65 @@ export function OpenSource() {
         />
 
         <FadeIn delay={100}>
-          <div className="mt-16 flex justify-center">
-            <Card className="w-full max-w-2xl p-8">
-              <div className="flex items-center gap-2">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="text-text-secondary"
-                  aria-hidden="true"
-                >
-                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
-                </svg>
-                <span className="font-mono text-lg text-text-primary">
-                  Mythos-IDE / mythoside-core
-                </span>
-              </div>
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
+            {repositories.map((repo) => (
+              <Card key={repo.name} className="flex flex-col p-6">
+                <div className="flex items-center gap-2">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="text-text-secondary"
+                    aria-hidden="true"
+                  >
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                  </svg>
+                  <span className="font-mono text-sm text-text-primary">
+                    Mythos-IDE / {repo.name}
+                  </span>
+                </div>
 
-              <p className="mt-3 text-sm text-text-secondary">
-                World Development Environment for novelists
-              </p>
+                <p className="mt-3 flex-1 text-sm text-text-secondary">
+                  {repo.description}
+                </p>
 
-              <div className="mt-5 flex flex-wrap items-center gap-4 text-sm text-text-secondary">
+                <div className="mt-5 flex items-center justify-between">
+                  <div className="flex items-center gap-2 text-xs text-text-secondary">
+                    <span
+                      className="inline-block h-2.5 w-2.5 rounded-full"
+                      style={{ backgroundColor: repo.color }}
+                      aria-hidden="true"
+                    />
+                    <span>{repo.language}</span>
+                  </div>
+                  <a
+                    href={repo.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs font-medium text-text-secondary hover:text-text-primary transition-colors"
+                  >
+                    View Source &rarr;
+                  </a>
+                </div>
+              </Card>
+            ))}
+          </div>
 
-                <span className="flex items-center gap-1">
-                  <span aria-hidden="true">📝</span> MIT License
-                </span>
-              </div>
-
-              <div className="mt-4 flex items-center gap-2 text-sm text-text-secondary">
-                <span
-                  className="inline-block h-3 w-3 rounded-full"
-                  style={{ backgroundColor: '#3178C6' }}
-                  aria-hidden="true"
-                />
-                <span>TypeScript</span>
-              </div>
-
-              <div className="mt-6">
-                <Button variant="primary" size="md" href="#">
-                  View Repository
-                </Button>
-              </div>
-            </Card>
+          <div className="mt-10 flex justify-center">
+            <Button variant="secondary" size="md" href="https://github.com/Mythos-IDE" target="_blank" rel="noopener noreferrer">
+              View Mythos-IDE Organization
+            </Button>
           </div>
         </FadeIn>
 
         <FadeIn delay={300}>
-          <div className="mx-auto mt-12 grid max-w-2xl grid-cols-1 gap-8 sm:grid-cols-3">
+          <div className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-8 sm:grid-cols-3">
             {contributions.map((item) => (
               <div key={item.title} className="flex flex-col items-center text-center">
                 <div className="text-text-secondary">{item.icon}</div>
