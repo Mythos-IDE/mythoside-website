@@ -98,7 +98,7 @@ export function OpenSource() {
                   <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
                 </svg>
                 <span className="font-mono text-lg text-text-primary">
-                  mythoside / mythoside
+                  Mythos-IDE / mythoside-core
                 </span>
               </div>
 
@@ -107,12 +107,7 @@ export function OpenSource() {
               </p>
 
               <div className="mt-5 flex flex-wrap items-center gap-4 text-sm text-text-secondary">
-                <span className="flex items-center gap-1">
-                  <span aria-hidden="true">⭐</span> 2.4k stars
-                </span>
-                <span className="flex items-center gap-1">
-                  <span aria-hidden="true">🍴</span> 128 forks
-                </span>
+
                 <span className="flex items-center gap-1">
                   <span aria-hidden="true">📝</span> MIT License
                 </span>
