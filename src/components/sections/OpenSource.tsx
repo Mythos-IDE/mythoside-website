@@ -75,7 +75,7 @@ export function OpenSource() {
         <SectionHeading
           label="Open Source"
           title="Built in the open"
-          description="MythosIDE is developed transparently. Every decision, every line of code — open for review and contribution."
+          description="Mythos is developed transparently. Every decision, every line of code — open for review and contribution."
         />
 
         <FadeIn delay={100}>

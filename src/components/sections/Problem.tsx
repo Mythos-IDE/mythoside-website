@@ -128,7 +128,7 @@ export function Problem() {
             </Card>
           </FadeIn>
 
-          {/* MythosIDE — positive card */}
+          {/* Mythos — positive card */}
           <FadeIn delay={150}>
             <Card
               hover={false}
@@ -139,7 +139,7 @@ export function Problem() {
                   <GraphIcon />
                 </div>
                 <h3 className="text-lg font-medium text-text-primary">
-                  MythosIDE
+                  Mythos
                 </h3>
               </div>
 

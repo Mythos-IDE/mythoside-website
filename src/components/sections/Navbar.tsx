@@ -96,7 +96,7 @@ export function Navbar() {
         {/* Logo */}
         <a href="/" className="flex items-center gap-2.5 text-text-primary">
           <LogoMark />
-          <span className="font-medium text-base">MythosIDE</span>
+          <span className="font-medium text-base">Mythos</span>
         </a>
 
         {/* Nav links — hidden on mobile */}

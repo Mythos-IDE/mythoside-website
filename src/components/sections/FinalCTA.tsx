@@ -22,7 +22,7 @@ export function FinalCTA() {
         <FadeIn>
           <h2 className="text-3xl font-semibold tracking-tight text-text-primary sm:text-4xl lg:text-5xl">
             <span className="block">If you're building a world,</span>
-            <span className="block">you need MythosIDE.</span>
+            <span className="block">you need Mythos.</span>
           </h2>
           <p className="mt-4 text-lg text-text-secondary">
             Free, open-source, and built for writers who think in universes.

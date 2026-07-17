@@ -6,7 +6,7 @@ const features = [
   {
     title: 'Contextual References',
     description:
-      'Type @Character and MythosIDE instantly connects the reference to your world graph. Every mention is tracked across all books.',
+      'Type @Character and Mythos instantly connects the reference to your world graph. Every mention is tracked across all books.',
     icon: (
       <svg
         width="24"

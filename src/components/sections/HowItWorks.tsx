@@ -147,14 +147,14 @@ const steps = [
     number: '02',
     title: 'Connect',
     description:
-      'Type @ and MythosIDE recognizes your characters, locations, and artifacts. Every mention becomes a living reference.',
+      'Type @ and Mythos recognizes your characters, locations, and artifacts. Every mention becomes a living reference.',
     visual: <ConnectVisual />,
   },
   {
     number: '03',
     title: 'Remember',
     description:
-      'MythosIDE maintains a complete knowledge graph of your world. Every entity, relationship, and appearance — across all books.',
+      'Mythos maintains a complete knowledge graph of your world. Every entity, relationship, and appearance — across all books.',
     visual: <RememberVisual />,
   },
 ]

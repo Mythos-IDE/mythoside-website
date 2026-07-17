@@ -147,7 +147,7 @@ export function Hero() {
               </h1>
 
               <p className="text-lg text-text-secondary max-w-xl leading-relaxed">
-                MythosIDE is a World Development Environment for novelists
+                Mythos is a World Development Environment for novelists
                 writing complex fictional universes.
               </p>
 

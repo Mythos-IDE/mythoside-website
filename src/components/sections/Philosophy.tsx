@@ -26,7 +26,7 @@ const principles = [
   },
   {
     title: 'No Subscriptions',
-    description: 'MythosIDE is free and open-source. No recurring fees. No paywalls.',
+    description: 'Mythos is free and open-source. No recurring fees. No paywalls.',
     icon: (
       <svg
         width="20"
