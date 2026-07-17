@@ -1,35 +1,32 @@
-const links = [
-  { label: 'GitHub', href: '#' },
-  { label: 'License', href: '#' },
-  { label: 'Discussions', href: '#' },
-  { label: 'Issues', href: '#' },
-]
+import { T } from '../../i18n'
+import Logo from '../ui/Logo'
 
-export function Footer() {
+export default function Footer() {
   return (
-    <footer className="border-t border-border px-6 py-8">
-      <div className="mx-auto flex w-full flex-col items-center justify-between gap-4 sm:flex-row">
-        <p className="text-sm text-text-secondary">© 2025 Mythos</p>
-
-        <nav aria-label="Footer">
-          <ul className="flex items-center gap-6">
-            {links.map((link, index) => (
-              <li key={link.label}>
-                <a
-                  href={link.href}
-                  className="text-sm text-text-secondary transition-colors hover:text-text-primary"
-                >
-                  {link.label}
-                </a>
-                {index < links.length - 1 && (
-                  <span className="ml-6 hidden text-text-secondary/30 sm:inline" aria-hidden="true">
-                    ·
-                  </span>
-                )}
-              </li>
-            ))}
-          </ul>
-        </nav>
+    <footer>
+      <div className="wrap">
+        <div className="foot-grid">
+          <div className="foot-col">
+            <a className="brand" href="#top" style={{ marginBottom: 16 }} aria-label="Mythos home"><Logo /> Mythos</a>
+            <T k="foot.tagline" as="p" className="foot-note" />
+          </div>
+          <div className="foot-col">
+            <T k="foot.repos" as="h4" />
+            <a href="https://github.com/Mythos-IDE/mythoside-core"><T k="foot.r1" /></a>
+            <a href="https://github.com/Mythos-IDE/mythoside-ts"><T k="foot.r2" /></a>
+            <a href="https://github.com/Mythos-IDE/mythoside-website">mythoside-website</a>
+          </div>
+          <div className="foot-col">
+            <T k="foot.project" as="h4" />
+            <a href="https://github.com/Mythos-IDE"><T k="foot.pr1" /></a>
+            <a href="https://github.com/Mythos-IDE/.github/blob/main/CONTRIBUTING.md"><T k="foot.pr2" /></a>
+            <a href="https://github.com/Mythos-IDE/.github/blob/main/SECURITY.md"><T k="foot.pr3" /></a>
+          </div>
+        </div>
+        <div className="foot-bottom">
+          <span>© 2026 Mythos-IDE — FSL-1.1 · site MIT</span>
+          <T k="foot.motto" />
+        </div>
       </div>
     </footer>
   )
