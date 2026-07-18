@@ -6,6 +6,8 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-C9A24B)](./LICENSE)
 
+<p align="center">English · <a href="./README.TR.md">Türkçe</a></p>
+
 <p align="center">
   <a href="https://github.com/Mythos-IDE">Ecosystem</a>
   &nbsp;·&nbsp;
