@@ -1,54 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%">
-  <!-- Background -->
-  <rect width="1200" height="400" fill="#09090B" rx="12"/>
-  
-  <!-- Subtle Grid -->
-  <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#27272A" stroke-width="0.5" opacity="0.3"/>
-    </pattern>
-    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#09090B" stop-opacity="0" />
-      <stop offset="100%" stop-color="#09090B" stop-opacity="1" />
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="400" fill="url(#grid)" rx="12"/>
-  <rect width="1200" height="400" fill="url(#fade)" rx="12"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+  <title id="t">MythosIDE Website — the product site</title>
+  <desc id="d">The landing site for MythosIDE, built with Vite, React 19, and Tailwind CSS v4, with English and Turkish content and light and dark themes.</desc>
 
-  <!-- Technical UI Window -->
-  <rect x="80" y="80" width="1040" height="280" fill="#111114" rx="8" stroke="#27272A" stroke-width="1"/>
-  
-  <!-- Traffic Lights -->
-  <circle cx="104" cy="104" r="6" fill="#27272A"/>
-  <circle cx="124" cy="104" r="6" fill="#27272A"/>
-  <circle cx="144" cy="104" r="6" fill="#27272A"/>
-  <line x1="80" y1="120" x2="1120" y2="120" stroke="#27272A" stroke-width="1"/>
-  
-  <!-- Sidebar -->
-  <rect x="80" y="120" width="220" height="240" fill="#09090B" rx="0"/>
-  <line x1="300" y1="120" x2="300" y2="360" stroke="#27272A" stroke-width="1"/>
-  
-  <!-- Sidebar Content -->
-  <text x="100" y="150" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="1">WORLDBUILDING</text>
-  <text x="100" y="180" fill="#FAFAFA" font-family="system-ui, sans-serif" font-size="13">Characters</text>
-  <circle cx="280" cy="176" r="4" fill="#A1A1AA"/>
-  <text x="100" y="210" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="13">Locations</text>
-  <text x="100" y="240" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="13">Factions</text>
+  <rect width="1200" height="360" rx="24" fill="#0B0E15"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#20242f"/>
+  <path d="M56 74H1144M56 286H1144" stroke="#1b2130"/>
 
-  <!-- Main Editor Area Content -->
-  <text x="340" y="170" fill="#FAFAFA" font-family="system-ui, sans-serif" font-size="32" font-weight="700">MythosIDE</text>
-  <text x="340" y="210" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="18">World Development Environment (WDE)</text>
-  <text x="340" y="250" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="14">An IDE for novelists that treats worldbuilding as the source of truth,</text>
-  <text x="340" y="275" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="14">not an afterthought to the manuscript.</text>
-  
-  <rect x="340" y="310" width="120" height="32" fill="#FAFAFA" rx="4"/>
-  <text x="400" y="330" fill="#09090B" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">View Project</text>
+  <text x="56" y="50" fill="#C9A24B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="3">THE PRODUCT SITE</text>
+  <text x="1144" y="50" text-anchor="end" fill="#7E869A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">MYTHOS-IDE / WEBSITE</text>
 
-  <!-- Right Side technical elements / character node -->
-  <rect x="850" y="160" width="220" height="100" fill="#09090B" rx="6" stroke="#27272A" stroke-width="1"/>
-  <text x="870" y="190" fill="#FAFAFA" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Alaric Vane</text>
-  <text x="870" y="215" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="12">Faction: Shadow Guild</text>
-  <text x="870" y="235" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="12">Status: Alive</text>
-  <!-- Connection Line -->
-  <path d="M 680 260 C 780 260 780 210 850 210" fill="none" stroke="#27272A" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="56" y="150" fill="#E8DFCB" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="600">MythosIDE Website</text>
+  <text x="58" y="192" fill="#B9B4A4" font-family="Georgia, 'Times New Roman', serif" font-size="21">The landing page for the world</text>
+  <text x="58" y="220" fill="#B9B4A4" font-family="Georgia, 'Times New Roman', serif" font-size="21">development environment.</text>
+  <text x="58" y="262" fill="#8b93a3" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5">VITE &#183; REACT 19 &#183; TAILWIND v4 &#183; EN / TR &#183; LIGHT + DARK</text>
+
+  <!-- browser chrome showing the landing hero -->
+  <g transform="translate(690 100)">
+    <rect x="0" y="0" width="406" height="168" rx="8" fill="#0E1220" stroke="#20242f"/>
+    <path d="M0 30H406" stroke="#1b2130"/>
+    <circle cx="16" cy="15" r="3.2" fill="#20242f"/><circle cx="28" cy="15" r="3.2" fill="#20242f"/><circle cx="40" cy="15" r="3.2" fill="#20242f"/>
+    <rect x="70" y="8" width="240" height="15" rx="7" fill="#0B0E15" stroke="#20242f"/>
+    <text x="82" y="19" fill="#7E869A" font-family="ui-monospace, monospace" font-size="9.5">mythoside.com</text>
+    <!-- theme + lang chips -->
+    <rect x="330" y="8" width="26" height="15" rx="3" fill="#C9A24B"/>
+    <text x="343" y="19" text-anchor="middle" fill="#141007" font-family="ui-monospace, monospace" font-size="8.5" font-weight="700">EN</text>
+    <rect x="360" y="8" width="24" height="15" rx="3" fill="none" stroke="#20242f"/>
+    <text x="372" y="19" text-anchor="middle" fill="#7E869A" font-family="ui-monospace, monospace" font-size="8.5">TR</text>
+    <!-- landing content -->
+    <text x="24" y="74" fill="#C9A24B" font-family="ui-monospace, monospace" font-size="8.5" letter-spacing="1.5">LOCAL-FIRST WDE</text>
+    <text x="24" y="112" fill="#E8DFCB" font-family="Georgia, serif" font-size="30" font-weight="600">Continuity is a</text>
+    <text x="24" y="146" fill="#C9A24B" font-family="Georgia, serif" font-size="30" font-style="italic" font-weight="600">solved <tspan fill="#E8DFCB" font-style="normal">problem.</tspan></text>
+  </g>
 </svg>

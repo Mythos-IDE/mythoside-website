@@ -1,45 +1,54 @@
 <div align="center">
-  <img src="assets/readme/hero.svg" alt="MythosIDE: World Development Environment" width="100%" />
+  <img src="assets/readme/hero.svg" alt="MythosIDE Website — the product site for the world development environment" width="100%" />
 </div>
 
-**MythosIDE** is an open-source desktop application that functions as a World Development Environment (WDE) for novelists. 
+# MythosIDE Website (`mythoside-website`)
 
-While most writing apps focus on the manuscript, MythosIDE understands that for fantasy, sci-fi, and epic fiction writers, the **world** is the source of truth. It treats worldbuilding with the same structural rigor that an IDE treats source code.
+[![License: MIT](https://img.shields.io/badge/license-MIT-C9A24B)](./LICENSE)
 
-## The Mechanism
+<p align="center">
+  <a href="https://github.com/Mythos-IDE">Ecosystem</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Mythos-IDE/mythoside-core">Core engine</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Mythos-IDE/mythoside-ts">Desktop app</a>
+</p>
 
-Unlike generic note-taking tools or Wikis, MythosIDE connects your manuscript directly to a structured world database. When you reference a character, location, or faction, the IDE knows its current state, relationships, and history. 
+The official landing page for **MythosIDE** — the local-first world development environment for novelists. It tells the product story: reading a whole series the way a compiler reads a codebase, so continuity errors surface before a reader finds them.
 
-- **Typed Entities**: Characters aren't just text notes; they are nodes with properties (Status, Faction, Location).
-- **Timeline Integrity**: The environment warns you if a character is referenced in a scene after their death, or if they are in two locations at once.
-- **Distraction-Free**: Built with a calm, dark-themed, and technical aesthetic. No clutter, no distracting AI chat bubbles—just your world and your words.
+Built as a single-page React app with the same editorial identity as the product itself — ink-and-gold, a serif display face over a monospace UI, English and Turkish content, and light and dark themes.
 
-## Development Setup
+## Stack
 
-MythosIDE is built with React, TypeScript, Vite, and Tailwind CSS v4.
+| Layer | Tooling |
+| --- | --- |
+| Build | Vite |
+| UI | React 19, TypeScript |
+| Styling | Tailwind CSS v4 with custom design tokens |
+| i18n | Built-in EN / TR toggle (no runtime dependency) |
+| Theme | Light + dark, follows system preference, persists choice |
+
+## Run locally
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/mythoside.git
-cd mythoside/mythoside-website
-
-# Install dependencies
+git clone https://github.com/Mythos-IDE/mythoside-website.git
+cd mythoside-website
 npm install
-
-# Start the development server
 npm run dev
 ```
 
-## Philosophy
+Vite serves the site at `http://localhost:5173`. Build for production with `npm run build`.
 
-- **This tool understands how you write:** It gets out of the way when drafting and provides structural support when planning.
-- **No AI generation focus:** This is a tool for *writers* to write, not for AI to write for you.
-- **Local and Private:** Your world belongs to you.
+## Project layout
 
-## Contributing
-
-We welcome contributions from developers and writers alike. Whether it's adding new features to the editor, improving the data structure of world nodes, or fixing bugs.
+```text
+src/index.css              design tokens (ink-and-gold), light/dark themes
+src/i18n.tsx               EN / TR dictionary and language toggle
+src/theme.tsx              theme context and toggle
+src/components/sections/   Hero, Problem, Model, Engine, Ethos, Pricing, Footer
+src/components/ui/         shared primitives (FadeIn, Logo)
+```
 
 ## License
 
-MIT License
+MIT — see [LICENSE](./LICENSE). (The `mythoside-core` engine and `mythoside-ts` app are under FSL-1.1; the website is MIT.)
