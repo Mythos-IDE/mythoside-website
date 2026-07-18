@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="assets/readme/hero.svg" alt="MythosIDE Website — dünya geliştirme ortamının ürün sitesi" width="100%" />
+  <img src="assets/readme/hero.svg" alt="Mythos Website — dünya geliştirme ortamının ürün sitesi" width="100%" />
 </div>
 
-# MythosIDE Website (`mythoside-website`)
+# Mythos Website (`mythoside-website`)
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-C9A24B)](./LICENSE)
 
@@ -16,7 +16,7 @@
   <a href="https://github.com/Mythos-IDE/mythoside-ts">Masaüstü uygulaması</a>
 </p>
 
-**MythosIDE**'nin resmi tanıtım sayfası — romancılar için yerel-öncelikli dünya geliştirme ortamı. Ürün hikâyesini anlatır: tüm bir seriyi bir derleyicinin kod tabanını okuduğu gibi okumak, böylece süreklilik hataları bir okur bulmadan önce yüzeye çıkar.
+**Mythos**'nin resmi tanıtım sayfası — romancılar için yerel-öncelikli dünya geliştirme ortamı. Ürün hikâyesini anlatır: tüm bir seriyi bir derleyicinin kod tabanını okuduğu gibi okumak, böylece süreklilik hataları bir okur bulmadan önce yüzeye çıkar.
 
 Ürünün kendisiyle aynı editoryal kimlikte tek sayfalık bir React uygulaması olarak inşa edildi — mürekkep-ve-altın, monospace bir arayüz üzerinde serif bir başlık yüzü, İngilizce ve Türkçe içerik, açık ve koyu temalar.
 

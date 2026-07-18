@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
-  <title id="t">MythosIDE Website — the product site</title>
-  <desc id="d">The landing site for MythosIDE, built with Vite, React 19, and Tailwind CSS v4, with English and Turkish content and light and dark themes.</desc>
+  <title id="t">Mythos Website — the product site</title>
+  <desc id="d">The landing site for Mythos, built with Vite, React 19, and Tailwind CSS v4, with English and Turkish content and light and dark themes.</desc>
 
   <rect width="1200" height="360" rx="24" fill="#0B0E15"/>
   <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#20242f"/>
@@ -9,7 +9,7 @@
   <text x="56" y="50" fill="#C9A24B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="3">THE PRODUCT SITE</text>
   <text x="1144" y="50" text-anchor="end" fill="#7E869A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">MYTHOS-IDE / WEBSITE</text>
 
-  <text x="56" y="150" fill="#E8DFCB" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="600">MythosIDE Website</text>
+  <text x="56" y="150" fill="#E8DFCB" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="600">Mythos Website</text>
   <text x="58" y="192" fill="#B9B4A4" font-family="Georgia, 'Times New Roman', serif" font-size="21">The landing page for the world</text>
   <text x="58" y="220" fill="#B9B4A4" font-family="Georgia, 'Times New Roman', serif" font-size="21">development environment.</text>
   <text x="58" y="262" fill="#8b93a3" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5">VITE &#183; REACT 19 &#183; TAILWIND v4 &#183; EN / TR &#183; LIGHT + DARK</text>

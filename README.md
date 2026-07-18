@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="assets/readme/hero.svg" alt="MythosIDE Website — the product site for the world development environment" width="100%" />
+  <img src="assets/readme/hero.svg" alt="Mythos Website — the product site for the world development environment" width="100%" />
 </div>
 
-# MythosIDE Website (`mythoside-website`)
+# Mythos Website (`mythoside-website`)
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-C9A24B)](./LICENSE)
 
@@ -16,7 +16,7 @@
   <a href="https://github.com/Mythos-IDE/mythoside-ts">Desktop app</a>
 </p>
 
-The official landing page for **MythosIDE** — the local-first world development environment for novelists. It tells the product story: reading a whole series the way a compiler reads a codebase, so continuity errors surface before a reader finds them.
+The official landing page for **Mythos** — the local-first world development environment for novelists. It tells the product story: reading a whole series the way a compiler reads a codebase, so continuity errors surface before a reader finds them.
 
 Built as a single-page React app with the same editorial identity as the product itself — ink-and-gold, a serif display face over a monospace UI, English and Turkish content, and light and dark themes.
 
